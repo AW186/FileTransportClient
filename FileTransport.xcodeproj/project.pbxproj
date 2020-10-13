@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8E534A6825117299009B047E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A6725117299009B047E /* main.cpp */; };
+		8E534A7625119493009B047E /* Sockets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A7325117363009B047E /* Sockets.cpp */; };
+		8E534A7725119493009B047E /* ClientTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A7425117363009B047E /* ClientTask.cpp */; };
+		8E534A7825119493009B047E /* ServerTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A7525117363009B047E /* ServerTask.cpp */; };
+		8E534A792511949B009B047E /* ClientTask.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A6F25117363009B047E /* ClientTask.hpp */; };
+		8E534A7A2511949B009B047E /* ServerTask.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A7025117363009B047E /* ServerTask.hpp */; };
+		8E534A7B2511949B009B047E /* Sockets.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E534A7125117363009B047E /* Sockets.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,13 @@
 /* Begin PBXFileReference section */
 		8E534A6425117299009B047E /* FileTransport */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FileTransport; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E534A6725117299009B047E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8E534A6F25117363009B047E /* ClientTask.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClientTask.hpp; sourceTree = "<group>"; };
+		8E534A7025117363009B047E /* ServerTask.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ServerTask.hpp; sourceTree = "<group>"; };
+		8E534A7125117363009B047E /* Sockets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sockets.hpp; sourceTree = "<group>"; };
+		8E534A7225117363009B047E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E534A7325117363009B047E /* Sockets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sockets.cpp; sourceTree = "<group>"; };
+		8E534A7425117363009B047E /* ClientTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClientTask.cpp; sourceTree = "<group>"; };
+		8E534A7525117363009B047E /* ServerTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ServerTask.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +71,23 @@
 			isa = PBXGroup;
 			children = (
 				8E534A6725117299009B047E /* main.cpp */,
+				8E534A6E25117363009B047E /* SocketTask-master */,
 			);
 			path = FileTransport;
+			sourceTree = "<group>";
+		};
+		8E534A6E25117363009B047E /* SocketTask-master */ = {
+			isa = PBXGroup;
+			children = (
+				8E534A6F25117363009B047E /* ClientTask.hpp */,
+				8E534A7025117363009B047E /* ServerTask.hpp */,
+				8E534A7125117363009B047E /* Sockets.hpp */,
+				8E534A7225117363009B047E /* README.md */,
+				8E534A7325117363009B047E /* Sockets.cpp */,
+				8E534A7425117363009B047E /* ClientTask.cpp */,
+				8E534A7525117363009B047E /* ServerTask.cpp */,
+			);
+			path = "SocketTask-master";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E534A792511949B009B047E /* ClientTask.hpp in Sources */,
+				8E534A7A2511949B009B047E /* ServerTask.hpp in Sources */,
+				8E534A7B2511949B009B047E /* Sockets.hpp in Sources */,
+				8E534A7625119493009B047E /* Sockets.cpp in Sources */,
+				8E534A7725119493009B047E /* ClientTask.cpp in Sources */,
+				8E534A7825119493009B047E /* ServerTask.cpp in Sources */,
 				8E534A6825117299009B047E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
